@@ -1,0 +1,9 @@
+{
+  "exit_code": 0,
+  "steps_requested": 1000,
+  "episodes": 40,
+  "rank": 16,
+  "augmentation": false,
+  "output": "C:\\Users\\gds13\\Desktop\\\u534e\u7855\u9ed1\u5ba2\u677e\\embodied-finetune\\outputs\\lora-r16-20261030-192410",
+  "note": "Training loss is not a robot task success rate."
+}

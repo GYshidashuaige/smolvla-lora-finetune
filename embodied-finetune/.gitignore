@@ -1,0 +1,13 @@
+.venv/
+vendor/
+cache/
+outputs/
+__pycache__/
+*.zip
+.env
+*-download.log
+download.log
+logs-install.txt
+submission-repo/
+evaluation.log
+results-summary.log

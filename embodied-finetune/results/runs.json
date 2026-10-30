@@ -1,0 +1,442 @@
+[
+  {
+    "log": "20261030-192107-train.log",
+    "status": "running or interrupted",
+    "training_metrics": [],
+    "task_success_rate": null
+  },
+  {
+    "log": "20261030-192156-train.log",
+    "status": {
+      "exit_code": 1,
+      "steps_requested": 10,
+      "episodes": 4,
+      "rank": 16,
+      "augmentation": false,
+      "output": "C:\\Users\\gds13\\Desktop\\华硕黑客松\\embodied-finetune\\outputs\\lora-r16-20261030-192156",
+      "note": "Training loss is not a robot task success rate."
+    },
+    "training_metrics": [
+      {
+        "step": "10",
+        "loss": 0.602
+      }
+    ],
+    "task_success_rate": null
+  },
+  {
+    "log": "20261030-192410-train.log",
+    "status": {
+      "exit_code": 0,
+      "steps_requested": 1000,
+      "episodes": 40,
+      "rank": 16,
+      "augmentation": false,
+      "output": "C:\\Users\\gds13\\Desktop\\华硕黑客松\\embodied-finetune\\outputs\\lora-r16-20261030-192410",
+      "note": "Training loss is not a robot task success rate."
+    },
+    "training_metrics": [
+      {
+        "step": "10",
+        "loss": 0.676
+      },
+      {
+        "step": "20",
+        "loss": 0.741
+      },
+      {
+        "step": "30",
+        "loss": 0.314
+      },
+      {
+        "step": "40",
+        "loss": 0.448
+      },
+      {
+        "step": "50",
+        "loss": 0.496
+      },
+      {
+        "step": "60",
+        "loss": 0.306
+      },
+      {
+        "step": "70",
+        "loss": 0.684
+      },
+      {
+        "step": "80",
+        "loss": 0.209
+      },
+      {
+        "step": "90",
+        "loss": 0.226
+      },
+      {
+        "step": "100",
+        "loss": 0.325
+      },
+      {
+        "step": "110",
+        "loss": 0.453
+      },
+      {
+        "step": "120",
+        "loss": 0.282
+      },
+      {
+        "step": "130",
+        "loss": 0.317
+      },
+      {
+        "step": "140",
+        "loss": 0.287
+      },
+      {
+        "step": "150",
+        "loss": 0.273
+      },
+      {
+        "step": "160",
+        "loss": 0.255
+      },
+      {
+        "step": "170",
+        "loss": 0.197
+      },
+      {
+        "step": "180",
+        "loss": 0.328
+      },
+      {
+        "step": "190",
+        "loss": 0.378
+      },
+      {
+        "step": "200",
+        "loss": 0.223
+      },
+      {
+        "step": "210",
+        "loss": 0.238
+      },
+      {
+        "step": "220",
+        "loss": 0.204
+      },
+      {
+        "step": "230",
+        "loss": 0.186
+      },
+      {
+        "step": "240",
+        "loss": 0.206
+      },
+      {
+        "step": "250",
+        "loss": 0.24
+      },
+      {
+        "step": "260",
+        "loss": 0.212
+      },
+      {
+        "step": "270",
+        "loss": 0.199
+      },
+      {
+        "step": "280",
+        "loss": 0.177
+      },
+      {
+        "step": "290",
+        "loss": 0.272
+      },
+      {
+        "step": "300",
+        "loss": 0.229
+      },
+      {
+        "step": "310",
+        "loss": 0.267
+      },
+      {
+        "step": "320",
+        "loss": 0.226
+      },
+      {
+        "step": "330",
+        "loss": 0.201
+      },
+      {
+        "step": "340",
+        "loss": 0.231
+      },
+      {
+        "step": "350",
+        "loss": 0.261
+      },
+      {
+        "step": "360",
+        "loss": 0.235
+      },
+      {
+        "step": "370",
+        "loss": 0.231
+      },
+      {
+        "step": "380",
+        "loss": 0.192
+      },
+      {
+        "step": "390",
+        "loss": 0.259
+      },
+      {
+        "step": "400",
+        "loss": 0.205
+      },
+      {
+        "step": "410",
+        "loss": 0.254
+      },
+      {
+        "step": "420",
+        "loss": 0.268
+      },
+      {
+        "step": "430",
+        "loss": 0.187
+      },
+      {
+        "step": "440",
+        "loss": 0.249
+      },
+      {
+        "step": "450",
+        "loss": 0.206
+      },
+      {
+        "step": "460",
+        "loss": 0.181
+      },
+      {
+        "step": "470",
+        "loss": 0.2
+      },
+      {
+        "step": "480",
+        "loss": 0.191
+      },
+      {
+        "step": "490",
+        "loss": 0.281
+      },
+      {
+        "step": "500",
+        "loss": 0.175
+      },
+      {
+        "step": "510",
+        "loss": 0.25
+      },
+      {
+        "step": "520",
+        "loss": 0.198
+      },
+      {
+        "step": "530",
+        "loss": 0.154
+      },
+      {
+        "step": "540",
+        "loss": 0.184
+      },
+      {
+        "step": "550",
+        "loss": 0.165
+      },
+      {
+        "step": "560",
+        "loss": 0.194
+      },
+      {
+        "step": "570",
+        "loss": 0.179
+      },
+      {
+        "step": "580",
+        "loss": 0.163
+      },
+      {
+        "step": "590",
+        "loss": 0.213
+      },
+      {
+        "step": "600",
+        "loss": 0.22
+      },
+      {
+        "step": "610",
+        "loss": 0.165
+      },
+      {
+        "step": "620",
+        "loss": 0.221
+      },
+      {
+        "step": "630",
+        "loss": 0.234
+      },
+      {
+        "step": "640",
+        "loss": 0.207
+      },
+      {
+        "step": "650",
+        "loss": 0.174
+      },
+      {
+        "step": "660",
+        "loss": 0.177
+      },
+      {
+        "step": "670",
+        "loss": 0.204
+      },
+      {
+        "step": "680",
+        "loss": 0.199
+      },
+      {
+        "step": "690",
+        "loss": 0.223
+      },
+      {
+        "step": "700",
+        "loss": 0.177
+      },
+      {
+        "step": "710",
+        "loss": 0.199
+      },
+      {
+        "step": "720",
+        "loss": 0.175
+      },
+      {
+        "step": "730",
+        "loss": 0.171
+      },
+      {
+        "step": "740",
+        "loss": 0.162
+      },
+      {
+        "step": "750",
+        "loss": 0.142
+      },
+      {
+        "step": "760",
+        "loss": 0.198
+      },
+      {
+        "step": "770",
+        "loss": 0.188
+      },
+      {
+        "step": "780",
+        "loss": 0.174
+      },
+      {
+        "step": "790",
+        "loss": 0.187
+      },
+      {
+        "step": "800",
+        "loss": 0.199
+      },
+      {
+        "step": "810",
+        "loss": 0.167
+      },
+      {
+        "step": "820",
+        "loss": 0.161
+      },
+      {
+        "step": "830",
+        "loss": 0.264
+      },
+      {
+        "step": "840",
+        "loss": 0.171
+      },
+      {
+        "step": "850",
+        "loss": 0.177
+      },
+      {
+        "step": "860",
+        "loss": 0.167
+      },
+      {
+        "step": "870",
+        "loss": 0.186
+      },
+      {
+        "step": "880",
+        "loss": 0.171
+      },
+      {
+        "step": "890",
+        "loss": 0.174
+      },
+      {
+        "step": "900",
+        "loss": 0.2
+      },
+      {
+        "step": "910",
+        "loss": 0.174
+      },
+      {
+        "step": "920",
+        "loss": 0.171
+      },
+      {
+        "step": "930",
+        "loss": 0.233
+      },
+      {
+        "step": "940",
+        "loss": 0.24
+      },
+      {
+        "step": "950",
+        "loss": 0.169
+      },
+      {
+        "step": "960",
+        "loss": 0.189
+      },
+      {
+        "step": "970",
+        "loss": 0.154
+      },
+      {
+        "step": "980",
+        "loss": 0.169
+      },
+      {
+        "step": "990",
+        "loss": 0.146
+      },
+      {
+        "step": "1K",
+        "loss": 0.219
+      }
+    ],
+    "task_success_rate": null
+  }
+]

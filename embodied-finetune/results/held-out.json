@@ -1,0 +1,218 @@
+{
+  "metric": "held_out_flow_matching_loss",
+  "episodes": [
+    40,
+    41,
+    42,
+    43
+  ],
+  "training_episodes": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39
+  ],
+  "sample_count": 32,
+  "base_mean": 0.5408854959532619,
+  "adapted_mean": 0.2112121544778347,
+  "checkpoint": "outputs\\lora-r16-20261030-192410\\checkpoints\\001000\\pretrained_model",
+  "samples": [
+    {
+      "dataset_index": 0,
+      "base": 0.18979723751544952,
+      "adapted": 0.10733488947153091
+    },
+    {
+      "dataset_index": 31,
+      "base": 0.28534242510795593,
+      "adapted": 0.20201727747917175
+    },
+    {
+      "dataset_index": 63,
+      "base": 0.4664582312107086,
+      "adapted": 0.2547667920589447
+    },
+    {
+      "dataset_index": 94,
+      "base": 0.789775013923645,
+      "adapted": 0.35497725009918213
+    },
+    {
+      "dataset_index": 126,
+      "base": 0.9483973383903503,
+      "adapted": 0.297457754611969
+    },
+    {
+      "dataset_index": 157,
+      "base": 0.40413200855255127,
+      "adapted": 0.19925902783870697
+    },
+    {
+      "dataset_index": 189,
+      "base": 0.4857930541038513,
+      "adapted": 0.27023985981941223
+    },
+    {
+      "dataset_index": 221,
+      "base": 0.4579073190689087,
+      "adapted": 0.1948613077402115
+    },
+    {
+      "dataset_index": 252,
+      "base": 0.3207416534423828,
+      "adapted": 0.1313936561346054
+    },
+    {
+      "dataset_index": 284,
+      "base": 0.36298027634620667,
+      "adapted": 0.15251249074935913
+    },
+    {
+      "dataset_index": 315,
+      "base": 0.3690744638442993,
+      "adapted": 0.21234893798828125
+    },
+    {
+      "dataset_index": 347,
+      "base": 0.35780951380729675,
+      "adapted": 0.2801206707954407
+    },
+    {
+      "dataset_index": 378,
+      "base": 0.3015706241130829,
+      "adapted": 0.2552996575832367
+    },
+    {
+      "dataset_index": 410,
+      "base": 0.803954005241394,
+      "adapted": 0.319677472114563
+    },
+    {
+      "dataset_index": 442,
+      "base": 0.5189868807792664,
+      "adapted": 0.397973895072937
+    },
+    {
+      "dataset_index": 473,
+      "base": 0.586431086063385,
+      "adapted": 0.18632325530052185
+    },
+    {
+      "dataset_index": 505,
+      "base": 0.4737933874130249,
+      "adapted": 0.23059195280075073
+    },
+    {
+      "dataset_index": 536,
+      "base": 0.4191005527973175,
+      "adapted": 0.12142236530780792
+    },
+    {
+      "dataset_index": 568,
+      "base": 0.4426869750022888,
+      "adapted": 0.24712827801704407
+    },
+    {
+      "dataset_index": 600,
+      "base": 0.46633630990982056,
+      "adapted": 0.19818244874477386
+    },
+    {
+      "dataset_index": 631,
+      "base": 1.2399749755859375,
+      "adapted": 0.19087138772010803
+    },
+    {
+      "dataset_index": 663,
+      "base": 0.5256428718566895,
+      "adapted": 0.20189563930034637
+    },
+    {
+      "dataset_index": 694,
+      "base": 0.2758845388889313,
+      "adapted": 0.08581920713186264
+    },
+    {
+      "dataset_index": 726,
+      "base": 0.23401589691638947,
+      "adapted": 0.21530066430568695
+    },
+    {
+      "dataset_index": 757,
+      "base": 0.40891706943511963,
+      "adapted": 0.1527145355939865
+    },
+    {
+      "dataset_index": 789,
+      "base": 0.4968114495277405,
+      "adapted": 0.17004697024822235
+    },
+    {
+      "dataset_index": 821,
+      "base": 0.6314961314201355,
+      "adapted": 0.17763514816761017
+    },
+    {
+      "dataset_index": 852,
+      "base": 2.269470453262329,
+      "adapted": 0.21663157641887665
+    },
+    {
+      "dataset_index": 884,
+      "base": 0.4615318179130554,
+      "adapted": 0.3264792263507843
+    },
+    {
+      "dataset_index": 915,
+      "base": 0.2692941129207611,
+      "adapted": 0.1888081580400467
+    },
+    {
+      "dataset_index": 947,
+      "base": 0.48982322216033936,
+      "adapted": 0.12619046866893768
+    },
+    {
+      "dataset_index": 979,
+      "base": 0.5544049739837646,
+      "adapted": 0.09250672161579132
+    }
+  ],
+  "limitations": "Fixed small episode holdout; same stochastic noise per pair. Not action MSE, not closed-loop success rate."
+}

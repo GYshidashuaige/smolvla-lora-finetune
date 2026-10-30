@@ -1,0 +1,7 @@
+{
+  "torch": "2.7.1+cu128",
+  "cuda_available": true,
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "vram_bytes": 8585216000,
+  "matmul_finite": true
+}
